@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --config ./test/config/.mocharc.json",
+    "coverage": "c8 npm test --config ./test/config/.c8rc.json"
   },
   "repository": {
     "type": "git",
