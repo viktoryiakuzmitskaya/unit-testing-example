@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "scripts": {    
+    "prepare": "husky install",
     "test": "mocha --config ./test/config/.mocharc.json",
     "coverage": "c8 npm test --config ./test/config/.c8rc.json",
-    "lint": "eslint ./",
-    "prepare": "husky"
+    "lint": "eslint ./"
   },
   "repository": {
     "type": "git",
