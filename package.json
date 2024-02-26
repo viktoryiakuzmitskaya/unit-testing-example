@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --config ./test/config/.mocharc.json",
-    "coverage": "c8 npm test --config ./test/config/.c8rc.json"
+    "coverage": "c8 npm test --config ./test/config/.c8rc.json",
+    "lint": "eslint ./",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",

@@ -40,6 +40,7 @@ describe('isNumberEven', () => {
   it('should return false if number is odd', () => {
     // Using 'expect' to assert that the 'isNumberEven' method returns false when
     // passed the odd number 5. The '.to.be.equal(false)' is the actual assertion check.
+    console.log("lol");
     expect(validator.isNumberEven(5)).to.be.equal(false);
   });
 
